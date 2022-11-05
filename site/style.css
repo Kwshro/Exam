@@ -35,7 +35,7 @@ padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap; /*the content will adjust to screen size*/
-    justify-content: space-around;/*even amount of space*/
+    justify-content: center;/*even amount of space*/
     flex:0 0 auto;
 }
 
@@ -69,7 +69,7 @@ margin-top: 8%;
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-4 {
     /*for the text*/
     width: 100%;
-    height: 25%;
+    height: 20%;
 }
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-w-4 {
@@ -88,7 +88,7 @@ margin-top: 8%;
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-6 {
     width: 100%;
-    height: 10%;
+    height: 8%;
 }
 
 .imgSpec {
@@ -98,4 +98,8 @@ margin-top: 8%;
 
 h2, p {
     text-align: center;
+}
+
+p{
+    font-size: small;
 }
