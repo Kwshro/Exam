@@ -40,7 +40,7 @@ padding: 0;
 }
 
 .flex-w-2 > .flex-c-2 {
-background-color: blueviolet;
+background-color:#FCFAF2;
 flex-basis: 350px;
 height: 350px;
 padding: 1%;
@@ -58,21 +58,18 @@ margin-top: 8%;
 .flex-w-2 > .flex-c-2 > .flex-w-3 {
     flex-basis: 100%;
     height: 100%;
-    background-color: blue;
 }
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-3 {
    /*for the picture*/
     width: 100%;
     height: 50%;
-    background-color: aqua;
 }
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-4 {
     /*for the text*/
     width: 100%;
     height: 25%;
-    background-color: pink;
 }
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-w-4 {
@@ -81,19 +78,24 @@ margin-top: 8%;
     flex-wrap: nowrap;
     flex-basis: auto;
     justify-content: space-evenly;
-    background-color: brown;
     width:100%;
     height: 15%;
 }
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-w-4 > .flex-c-5{
     flex-basis: 25%;
-    background-color: white;
-    border: 1px solid black;
 }
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-6 {
     width: 100%;
     height: 10%;
-    background-color: green;
+}
+
+.imgSpec {
+    height: 100%;
+    width: 100%
+}
+
+h2, p {
+    text-align: center;
 }
