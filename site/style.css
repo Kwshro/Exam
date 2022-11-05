@@ -23,10 +23,34 @@ header {
     flex-grow:0;
 }
 
-.flexWrapper > .flexContent {
+.flexWrapper > .flexContent { /*only targets the class in the div*/
 padding: 0;
 }
 
 .headerLogo {
     width: 100%;
+}
+
+.flex-w-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; /*the content will adjust to screen size*/
+    justify-content: space-around;/*even amount of space*/
+    flex:0 0 auto;
+}
+
+.flex-w-2 > .flex-c-2 {
+background-color: blueviolet;
+flex-basis: 300px;
+padding: 5%;
+margin-top: 8%;
+height: 300px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1180px) /*makes the margin smaller for tablet viewers*/
+
+{
+    .flex-w-2 > .flex-c-2{
+        margin-top: 4%;
+    }
+    
 }
