@@ -1,5 +1,8 @@
 body {
+    /* add media queries to resize background img to device size later + make background images .svg*/
     background-image: url(background.png);
+
+
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +24,7 @@ header {
 }
 
 .flexWrapper > .flexContent {
-
+padding: 0;
 }
 
 .headerLogo {
