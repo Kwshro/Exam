@@ -15,6 +15,10 @@ header {
     height: 15%;
 }
 
+h1 {
+    font-size: 150%;
+    text-align: center;
+}
 
 .flexWrapper {
     display: flex;
@@ -108,7 +112,24 @@ padding: 0;
     flex:0 0 auto;
 }
 
-.flex-w-2 > .flex-c-2 {
+.super-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; /*the content will adjust to screen size*/
+    justify-content: space-evenly;/*even amount of space*/
+    flex:0 0 auto;
+}
+
+.flex-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap; /*the content will adjust to screen size*/
+    justify-content: space-evenly;/*even amount of space*/
+    flex:0 0 auto;
+    padding-right: 1.5%;
+}
+
+.flex-c-2 {
 background-color:#FCFAF2;
 flex-basis: 350px;
 height: 350px;
@@ -118,11 +139,12 @@ margin-top: 8%;
 @media only screen and (min-device-width: 800px) and (max-device-width: 1180px) /*makes the margin smaller for tablet viewers*/
 
 {
-    .flex-w-2 > .flex-c-2{
+    .flex-c-2{
         margin-top: 4%;
     }
     
 }
+
 
 .flex-w-2 > .flex-c-2 > .flex-w-3 {
     flex-basis: 100%;

@@ -18,34 +18,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- tab icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- import-->
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
 
   <header>
     <div class="flexWrapper">
       <div class="flexContent"></div>
       <div class="flexContent">
-        <img class="headerLogo" src="headerLogo.svg" />
+        <a href="index.html">
+          <img class="headerLogo" src="headerLogo.svg" />
+        </a>
       </div>
-      <div class="flexContent"> <!-- this is the burger menu code vv -->
+      <div class="flexContent">
+        <!-- this is the burger menu code vv -->
         <ul class="menu">
-          <li><a class="menuItem" href="#"> <img src="Logo.svg" class="logo"></a></li>
-          <li><a class="menuItem" href="#">Menu</a></li>
+          <li>
+            <a class="menuItem" href="index.html">
+              <img src="Logo.svg" class="logo"
+            /></a>
+          </li>
+          <li><a class="menuItem" href="menu.html">Menu</a></li>
           <li><a class="menuItem" href="#">Log in</a></li>
-          <li><a class="menuItem"> <p>Copyright 2022 @ Restaurant Trendsetter <br> Trendsetter@fakemail.com <br> +45 00 00 00 00</p></a></li>
+          <li>
+            <a class="menuItem">
+              <p>
+                Copyright 2022 @ Restaurant Trendsetter <br />
+                Trendsetter@fakemail.com <br />
+                +45 00 00 00 00
+              </p></a
+            >
+          </li>
         </ul>
         <button class="hamburger">
           <!-- material icons https://material.io/resources/icons/ -->
           <i class="menuIcon material-icons">menu</i>
           <i class="closeIcon material-icons">close</i>
-
         </button>
       </div>
     </div>
