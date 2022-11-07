@@ -83,6 +83,7 @@
   </header>
 
   <body>
+    <form>
     <div class="flex-w-2">
       <!--Box 1-->
       <div class="flex-c-2">
@@ -96,12 +97,16 @@
             <p>ITEM DESCRIPTION</p>
           </div>
           <div class="flex-w-4">
-            <div class="flex-c-5"><p>BUTTON</p></div>
-            <div class="flex-c-5"><p>BUTTON</p></div>
-            <div class="flex-c-5"><p>BUTTON</p></div>
-            <div class="flex-c-5"><p>BUTTON</p></div>
+            <div class="flex-c-5"><p><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Egg</label></p></div>
+            <div class="flex-c-5"><p><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Kimchi</label></p></div>
+            <div class="flex-c-5"><p><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Bulgogi</label></p></div>
+            <div class="flex-c-5"><p><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Salmon</label></p></div>
           </div>
-          <div class="flex-c-6"><p>AMOUNT</p></div>
+          <div class="flex-c-6"><p>AMOUNT <input type="number" id="quantity" name="quantity" min="1" max="5"></p></div>
         </div>
       </div>
       <!--Box 2-->
@@ -205,6 +210,7 @@
         </div>
       </div>
     </div>
+  </form>
     <!--JS at the bottom to decrease loading time for visuals-->
     <script type="text/javascript" src="menu.js"></script>
   </body>
