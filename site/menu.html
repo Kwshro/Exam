@@ -83,7 +83,7 @@
   </header>
 
   <body>
-    <form>
+    <form action="register.php" method="POST">
     <div class="flex-w-2">
       <!--Box 1-->
       <div class="flex-c-2">
@@ -208,21 +208,16 @@
       <!--Box 6 - submit -->
       <div class="flex-c-2">
         <div class="flex-w-3">
-          <div class="flex-c-3">
-            <img class="imgSpec" src="notAvailable.png" />
-          </div>
+          <br><br><br><br>
           <div class="flex-c-4">
             <!-- TEXT HERE-->
-            <h2>MENU ITEM</h2>
-            <p>ITEM DESCRIPTION</p>
+            <h1>Trendsetter Menu</h1>
+            <h2> Ready to order?</h2>
           </div>
-          <div class="flex-w-4">
-            <div class="flex-c-5"><p>BUTTON</p></div>
-            <div class="flex-c-5"><p>BUTTON</p></div>
-            <div class="flex-c-5"><p>BUTTON</p></div>
-            <div class="flex-c-5"><p>BUTTON</p></div>
-          </div>
-          <div class="flex-c-6"><p>AMOUNT</p></div>
+            <br>
+          <div class="flex-c-6"><p>Wanted table number <input type="number" id="quantity" name="quantity" min="0" max="20"></p></div>
+          <div><p>Yourr time of arrival: <input type="time" id="appt" name="appt" min="09:00" max="21:00" required></p></div>
+          <div><p><input type="submit" value="Submit"></p></div>
         </div>
       </div>
     </div>
