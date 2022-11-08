@@ -135,7 +135,6 @@ padding: 0;
     flex-wrap:wrap; /*the content will adjust to screen size*/
     justify-content: space-evenly;/*even amount of space*/
     flex:0 0 auto;
-    padding-right: 1.5%;
 }
 
 .flex-c-2 {
@@ -143,6 +142,7 @@ background-color:#FCFAF2;
 flex-basis: 350px;
 height: 350px;
 padding: 1%;
+margin-right: 1.5%;
 margin-top: 8%;
 }
 @media only screen and (min-device-width: 800px) and (max-device-width: 1180px) /*makes the margin smaller for tablet viewers*/
