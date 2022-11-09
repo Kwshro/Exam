@@ -1,20 +1,20 @@
 function incrementValue()
 {
-    var value = parseInt(document.getElementById('quantity').value, 10);
+    var value = parseInt(document.getElementById('quantity-kimbap').value, 10);
     value = isNaN(value) ? 0 : value;
     if (value < '10') {
     value++;
-    document.getElementById('quantity').value = value;
+    document.getElementById('quantity-kimbap').value = value;
     }
 }
 
 function deincrementValue()
 {
-    var value = parseInt(document.getElementById('quantity').value, 10);
+    var value = parseInt(document.getElementById('quantity-kimbap').value, 10);
     value = isNaN(value) ? 0 : value;
     if (value > '0') {
     value--;
-    document.getElementById('quantity').value = value;
+    document.getElementById('quantity-kimbap').value = value;
     }
 }
 
