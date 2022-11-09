@@ -110,7 +110,10 @@
               <label for="kimbap"> Salmon</label></p></div>
           </div>
         -->
-          <div class="flex-c-6"><p>AMOUNT <input type="number" id="quantity" name="quantity" min="0" max="10"></p></div>
+          <div class="flex-c-6"><p>AMOUNT 
+            <input type="button" onclick="deincrementValue()" value="-" />
+            <input type="number" id="quantity" name="quantity" min="0" max="10">
+            <input type="button" onclick="incrementValue()" value="+" />  </p></div>
         </div>
       </div>
       <!--Box 2-->
@@ -138,7 +141,10 @@
               <label for="tteokbokki-ramen"> Extra Spicy</label></p></div>
           </div>
         -->
-          <div class="flex-c-6"><p>AMOUNT <input type="number" id="quantity" name="quantity" min="0" max="10"></p></div>
+          <div class="flex-c-6"><p>AMOUNT 
+            <input type="button" onclick="deincrementValue()" value="-" />
+            <input type="number" id="quantity" name="quantity" min="0" max="10">
+            <input type="button" onclick="incrementValue()" value="+" /></p></div>
         </div>
       </div>
       <!--Box 3-->
@@ -245,5 +251,6 @@
   </form>
     <!--JS at the bottom to decrease loading time for visuals-->
     <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="increment.js"></script>
   </body>
 </html>
