@@ -62,7 +62,7 @@
             /></a>
           </li>
           <li><a class="menuItem" href="menu.html">Menu</a></li>
-          <li><a class="menuItem" href="#">Log in</a></li>
+          <li><a class="menuItem" href="login.html">Log in</a></li>
           <li>
             <a class="menuItem">
               <p>
@@ -83,7 +83,7 @@
   </header>
 
   <body>
-    <form action="register.php" method="POST">
+    <form method="POST" action="form.php">
     <div class="flex-w-2">
       <!--Box 1-->
       <div class="flex-c-2">
@@ -112,7 +112,7 @@
         -->
           <div class="flex-c-6"><p>AMOUNT <br>
             <input type="button" onclick="deincrementKimbap()" value="-" />
-            <input type="number" id="quantity-kimbap" name="quantity-kimbap" min="0" max="10">
+            <input type="number" value="0" id="qkimbap" name="qkimbap" min="0" max="10">
             <input type="button" onclick="incrementKimbap()" value="+" />  </p></div>
         </div>
       </div>
@@ -143,7 +143,7 @@
         -->
           <div class="flex-c-6"><p>AMOUNT <br>
             <input type="button" onclick="deincrementRamen()" value="-" />
-            <input type="number" id="qramen" name="qramen" min="0" max="10">
+            <input type="number" value="0" id="qramen" name="qramen" min="0" max="10">
             <input type="button" onclick="incrementRamen()" value="+" /></p></div>
         </div>
       </div>
@@ -174,7 +174,7 @@
         -->
         <div class="flex-c-6"><p>AMOUNT <br>
           <input type="button" onclick="deincrementKfc()" value="-" />
-          <input type="number" id="qkfc" name="qkfc" min="0" max="10">
+          <input type="number" value="0" id="qkfc" name="qkfc" min="0" max="10">
           <input type="button" onclick="incrementKfc()" value="+" /></p></div>
       </div>
       </div>
@@ -205,7 +205,7 @@
         -->
         <div class="flex-c-6"><p>AMOUNT <br>
           <input type="button" onclick="deincrementHotteok()" value="-" />
-          <input type="number" id="qhotteok" name="qhotteok" min="0" max="10">
+          <input type="number" value="0" id="qhotteok" name="qhotteok" min="0" max="10">
           <input type="button" onclick="incrementHotteok()" value="+" /></p></div>
       </div>
       </div>
@@ -236,7 +236,7 @@
                   -->
                   <div class="flex-c-6"><p>AMOUNT <br>
                     <input type="button" onclick="deincrementMilktea()" value="-" />
-                    <input type="number" id="qmilktea" name="qmilktea" min="0" max="10">
+                    <input type="number" value="0" id="qmilktea" name="qmilktea" min="0" max="10">
                     <input type="button" onclick="incrementMilktea()" value="+" /></p></div>
                 </div>
       </div>
@@ -251,7 +251,7 @@
             <h2> Ready to order?</h2>
           </div>
             <br>
-          <div class="flex-c-6"><p>Wanted table number <br><select id="table-number" name="table-number">
+          <div class="flex-c-6"><p>Wanted table number <br><select id="qtable" name="qtable">
             <option value="choose">Choose table number</option>
             <option value="one"> Table 1</option>
             <option value="two"> Table 2</option>
@@ -261,8 +261,8 @@
             <option value="six"> Table 6</option>
           </select> </p></div>
           <br>
-          <div><p>Your time of arrival: <input type="time" id="appt" name="appt" min="09:00" max="21:00" required></p></div>
-          <div><p><input type="submit" value="Submit"></p></div>
+          <div><p>Your time of arrival: <input type="time" id="qtime" name="qtime" min="09:00" max="21:00" required></p></div>
+          <div><p><input type="submit" name="submit" value="Submit"></p></div>
         </div>
       </div>
     </div>

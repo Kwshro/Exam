@@ -1,18 +1,18 @@
 function incrementKimbap() {
-    var value = parseInt(document.getElementById('quantity-kimbap').value, 10);
+    var value = parseInt(document.getElementById('qkimbap').value, 10);
     value = isNaN(value) ? 0 : value;
     if (value < '10') {
         value++;
-        document.getElementById('quantity-kimbap').value = value;
+        document.getElementById('qkimbap').value = value;
     }
 }
 
 function deincrementKimbap() {
-    var value = parseInt(document.getElementById('quantity-kimbap').value, 10);
+    var value = parseInt(document.getElementById('qkimbap').value, 10);
     value = isNaN(value) ? 0 : value;
     if (value > '0') {
         value--;
-        document.getElementById('quantity-kimbap').value = value;
+        document.getElementById('qkimbap').value = value;
     }
 }
 

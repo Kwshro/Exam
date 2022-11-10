@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Restaurant Trendsetter Staff</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <div class="login">
+        <div class="flex-logo">
+            <div></div>
+        <img src="Logo.svg" class="logo-size" alt="logo of Restaurant Trendsetter">
+            <div></div>
+        </div>
+        <h1>Staff login</h1>
+        <form action="authenticate.php" method="post">
+            <label for="username">
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="username" placeholder="Type your username here" id="username" required>
+            <label for="password">
+                <i class="fas fa-lock"></i>
+                <br>
+            </label>
+            <input type="password" name="password" placeholder="Type your password here" id="password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+</body>
+</html>
