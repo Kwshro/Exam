@@ -1,15 +1,22 @@
 body {
     /* add media queries to resize background img to device size later + make background images .svg*/
-    background-image: url(background.png);
+    background-image: url(img/backgroundmobile.svg);
 
 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #FCFAF2;
-   
+
 }
-*{
+
+@media screen and (min-width: 800px) {
+    body {
+        background-image: url(img/background-big.svg);
+    }
+}
+
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,12 +26,12 @@ header {
     height: 15%;
 }
 
-h1{
+h1 {
     font-size: 200%;
     text-align: center;
 }
 
-.smaller-header-txt{
+.smaller-header-txt {
     font-size: 150%;
     text-align: center;
 }
@@ -35,20 +42,21 @@ h1{
     flex-wrap: nowrap;
     flex-basis: auto;
     justify-content: space-around;
-    flex-grow:0;
+    flex-grow: 0;
 }
 
-.flexWrapper > .flexContent { /*only targets the class in the div*/
-padding: 0;
+.flexWrapper>.flexContent {
+    /*only targets the class in the div*/
+    padding: 0;
 }
 
 .headerLogo {
     width: 100%;
 }
 
- /* burger menu*/
- 
- .hamburger {
+/* burger menu*/
+
+.hamburger {
     position: fixed;
     z-index: 100;
     top: 1rem;
@@ -58,14 +66,14 @@ padding: 0;
     background: rgb(255, 196, 8);
     color: #FCFAF2;
     cursor: pointer;
-  }
-  
-  .closeIcon {
+}
+
+.closeIcon {
     display: none;
-    
-  }
-  
-  .menu {
+
+}
+
+.menu {
     position: fixed;
     transform: translatex(-100%);
     transition: transform 0.6s;
@@ -87,115 +95,123 @@ padding: 0;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 
-  }
+}
 
 
-  li {
+li {
     text-align: center;
     margin-right: 5%;
 
-    }
+}
 
-    li > a {
-        color: #3A8FB7;
-        text-decoration: none;
-        font-size: 200%;
-    }
+li>a {
+    color: #3A8FB7;
+    text-decoration: none;
+    font-size: 200%;
+}
 
-  .logo {
+.logo {
     width: 100px;
     height: 100px;
-  }
-  
-  .showMenu {
+}
+
+.showMenu {
     transform: translateY(0);
-  }
+}
 
 
-   /* header END */
+/* header END */
 .flex-w-2 {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap; /*the content will adjust to screen size*/
-    justify-content: center;/*even amount of space*/
-    flex:0 0 auto;
+    flex-wrap: wrap;
+    /*the content will adjust to screen size*/
+    justify-content: center;
+    /*even amount of space*/
+    flex: 0 0 auto;
 }
 
 .super-display {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap; /*the content will adjust to screen size*/
-    justify-content: space-evenly;/*even amount of space*/
-    flex:0 0 auto;
+    flex-wrap: wrap;
+    /*the content will adjust to screen size*/
+    justify-content: space-evenly;
+    /*even amount of space*/
+    flex: 0 0 auto;
 }
 
 .flex-menu {
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap; /*the content will adjust to screen size*/
-    justify-content: space-evenly;/*even amount of space*/
-    flex:0 0 auto;
+    flex-wrap: wrap;
+    /*the content will adjust to screen size*/
+    justify-content: space-evenly;
+    /*even amount of space*/
+    flex: 0 0 auto;
     padding-right: 0;
 }
 
 .flex-c-2 {
-background-color:#FCFAF2;
-flex-basis: 350px;
-height: 350px;
-padding: 1%;
-margin-right: 1%;
-margin-top: 8%;
+    background-color: #FCFAF2;
+    flex-basis: 350px;
+    height: 350px;
+    padding: 1%;
+    margin-right: 1%;
+    margin-top: 8%;
 }
-@media only screen and (min-device-width: 800px) and (max-device-width: 1180px) /*makes the margin smaller for tablet viewers*/
 
-{
-    .flex-c-2{
+@media only screen and (min-device-width: 800px) and (max-device-width: 1180px)
+/*makes the margin smaller for tablet viewers*/
+
+    {
+    .flex-c-2 {
         margin-top: 4%;
     }
-    
+
 }
 
-.flex-c-2 > .flex-c-2-txt {
+.flex-c-2>.flex-c-2-txt {
     /*Here the size for the text in the front page is made smaller than the images above and under*/
-    height:250px;
+    height: 250px;
 }
 
-.c-2-txt{
+.c-2-txt {
     font-size: 14px;
 }
 
-.flex-w-2 > .flex-c-2 > .flex-w-3 {
+.flex-w-2>.flex-c-2>.flex-w-3 {
     flex-basis: 100%;
     height: 100%;
 }
 
-.flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-3 {
-   /*for the picture*/
+.flex-w-2>.flex-c-2>.flex-w-3>.flex-c-3 {
+    /*for the picture*/
     width: 100%;
     height: 50%;
 }
 
-.flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-4 {
+.flex-w-2>.flex-c-2>.flex-w-3>.flex-c-4 {
     /*for the text*/
     width: 100%;
     height: 20%;
 }
 
-.flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-w-4 {
+.flex-w-2>.flex-c-2>.flex-w-3>.flex-w-4 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: auto;
     justify-content: space-evenly;
-    width:100%;
+    width: 100%;
     height: 15%;
 }
 
-.flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-w-4 > .flex-c-5{
+.flex-w-2>.flex-c-2>.flex-w-3>.flex-w-4>.flex-c-5 {
     flex-basis: 25%;
 }
 
-.flex-w-2 > .flex-c-2 > .flex-w-3 > .flex-c-6 {
+.flex-w-2>.flex-c-2>.flex-w-3>.flex-c-6 {
     width: 100%;
     height: 8%;
 }
@@ -209,14 +225,15 @@ margin-top: 8%;
     margin-bottom: -10%;
 }
 
-.specialBox > img {
+.specialBox>img {
     margin-top: -2%;
 }
 
-h2, p {
+h2,
+p {
     text-align: center;
 }
 
-p{
+p {
     font-size: small;
 }
