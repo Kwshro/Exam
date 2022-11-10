@@ -237,3 +237,99 @@ p {
 p {
     font-size: small;
 }
+
+.btnplus{
+    background-color: #3A8FB7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 0px 40px 40px 0px;
+    margin-left: -5px;
+  }
+  
+  .btnminus{
+    background-color: #3A8FB7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 40px 0px 0px 40px;
+    margin-right: -5px;
+  }
+  
+  .myamt{
+    background-color:#3A8FB7;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .btnplus:hover{
+    background-color: #FFC408;
+    transition: 0.5s;
+    border-radius: 40px 0px 0px 40px;
+    transform: rotate(-180deg);
+  }
+  
+  .btnminus:hover{
+    background-color: #FFC408;
+    transition: 0.5s;
+    border-radius: 0px 40px 40px 0px;
+    transform: rotate(180deg);
+  }  
+  
+  .myamt:hover{
+    background-color: #FFC408;
+    color: #3A8FB7;
+    transition: 1s;
+  }
+  
+  .btnplus:active{
+  background-color: #E1E88A;
+  }
+  
+  .btnminus:active{
+  background-color: #E1E88A;
+  }
+  
+  .myamt:focus{
+    border: none;
+    outline: none;
+  }
+
+  .mysubmitbtn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#3A8FB7;
+    color: white;
+    border: none;
+    border-radius: 40px;
+  }
+
+  .mysubmitbtn:hover{
+    transition: 1s;
+    background:rgb(255, 196, 8);
+    color: #3A8FB7;
+  }
+
+  .mysubmitbtn:active{
+    background-color:#E1E88A;
+  }
+
+  input[type=time]{
+    background-color: #E1E88A;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+  }
+
+  select{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #E1E88A;
+    color: black;
+    border: none;
+    border-radius: 40px;
+  }
