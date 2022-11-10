@@ -33,7 +33,8 @@
     $rs = mysqli_query($con, $sql);
     if($rs)
     {
-        echo "Thank you for ordering at Restaurant Trendsetter!";
+        header('Location: thankyou.html');
+        exit;
     }
   
     // close connection

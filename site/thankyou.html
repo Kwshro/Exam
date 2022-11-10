@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- meta tags here-->
+    <title>Restaurant Trendsetter</title>
+    <meta
+      name="author"
+      content="Patrick, Tea, Heidi, EAMV AP Multimedia design 2022 Herning Denmark"
+    />
+    <meta name="description" content="Place the meta description text here." />
+
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="”robots”" content="nofollow" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- tab icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- import-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <header>
+    <div class="flexWrapper">
+      <div class="flexContent"></div>
+      <div class="flexContent">
+        <a href="index.html">
+          <img class="headerLogo" src="headerLogo.svg" />
+        </a>
+      </div>
+      <div class="flexContent">
+        <!-- this is the burger menu code vv -->
+        <ul class="menu">
+          <li>
+            <a class="menuItem" href="index.html">
+              <img src="Logo.svg" class="logo"
+            /></a>
+          </li>
+          <li><a class="menuItem" href="menu.html">Menu</a></li>
+          <li><a class="menuItem" href="login.html">Log in</a></li>
+          <li>
+            <a class="menuItem">
+              <p>
+                Copyright 2022 @ Restaurant Trendsetter <br />
+                Trendsetter@fakemail.com <br />
+                +45 00 00 00 00
+              </p></a
+            >
+          </li>
+        </ul>
+        <button class="hamburger">
+          <!-- material icons https://material.io/resources/icons/ -->
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="super-display">
+      <div></div>
+      <div class="flex-menu">
+        <div class="flex-c-2-txt">
+          <!--made a special class for the text to have a different size than the images-->
+          <h1>Thank you for ordering!</h1>
+          <p class="c-2-txt">The staff at Restaurant Trendsetter thanks you!</p>
+        </div>
+        <div class="flex-c-2 specialBox" >
+          <img src="img/thank1.png" alt="a restaurant in jeju island"/>
+        </div>
+        <div class="flex-c-2">
+          <img
+            src="img/thank2.png"
+            alt="a woman picking special jeju island oranges"
+          />
+        </div>
+        <div class="flex-c-2-txt">
+          <!--made a special class for the text to have a different size than the images-->
+          <h2 class="smaller-header-txt">We will be with you shortly.</h2>
+          <p class="c-2-txt">
+            Click our logo to go back to front page.
+          </p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <!--JS at the bottom to decrease loading time for visuals-->
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>
