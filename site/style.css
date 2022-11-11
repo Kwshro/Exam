@@ -332,3 +332,9 @@ select {
     border: none;
     border-radius: 40px;
 }
+
+.bigImg:hover {
+    transition: 2s;
+    transform: scale(150%);
+    z-index: 99;
+}
