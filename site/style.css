@@ -56,6 +56,11 @@ h1 {
 
 /* burger menu*/
 
+.closeIcon {
+    display: none;
+
+}
+
 .hamburger {
     position: fixed;
     z-index: 100;
@@ -66,11 +71,6 @@ h1 {
     background: rgb(255, 196, 8);
     color: #FCFAF2;
     cursor: pointer;
-}
-
-.closeIcon {
-    display: none;
-
 }
 
 .menu {
@@ -149,7 +149,7 @@ li>a {
     justify-content: space-evenly;
     /*even amount of space*/
     flex: 0 0 auto;
-    padding-right: 0;
+    margin-right: 1.5%;
 }
 
 .flex-c-2 {
@@ -157,7 +157,6 @@ li>a {
     flex-basis: 350px;
     height: 350px;
     padding: 1%;
-    margin-right: 1%;
     margin-top: 8%;
 }
 
@@ -238,93 +237,93 @@ p {
     font-size: small;
 }
 
-.btnplus{
+.btnplus {
     background-color: #3A8FB7;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 0px 40px 40px 0px;
     margin-left: -5px;
-  }
-  
-  .btnminus{
+}
+
+.btnminus {
     background-color: #3A8FB7;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 40px 0px 0px 40px;
     margin-right: -5px;
-  }
-  
-  .myamt{
-    background-color:#3A8FB7;
+}
+
+.myamt {
+    background-color: #3A8FB7;
     color: white;
     border: none;
     padding: 10px;
     text-align: center;
-  }
-  
-  .btnplus:hover{
+}
+
+.btnplus:hover {
     background-color: #FFC408;
     transition: 0.5s;
     border-radius: 40px 0px 0px 40px;
     transform: rotate(-180deg);
-  }
-  
-  .btnminus:hover{
+}
+
+.btnminus:hover {
     background-color: #FFC408;
     transition: 0.5s;
     border-radius: 0px 40px 40px 0px;
     transform: rotate(180deg);
-  }  
-  
-  .myamt:hover{
+}
+
+.myamt:hover {
     background-color: #FFC408;
     color: #3A8FB7;
     transition: 1s;
-  }
-  
-  .btnplus:active{
-  background-color: #E1E88A;
-  }
-  
-  .btnminus:active{
-  background-color: #E1E88A;
-  }
-  
-  .myamt:focus{
+}
+
+.btnplus:active {
+    background-color: #E1E88A;
+}
+
+.btnminus:active {
+    background-color: #E1E88A;
+}
+
+.myamt:focus {
     border: none;
     outline: none;
-  }
+}
 
-  .mysubmitbtn{
+.mysubmitbtn {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color:#3A8FB7;
+    background-color: #3A8FB7;
     color: white;
     border: none;
     border-radius: 40px;
-  }
+}
 
-  .mysubmitbtn:hover{
+.mysubmitbtn:hover {
     transition: 1s;
-    background:rgb(255, 196, 8);
+    background: rgb(255, 196, 8);
     color: #3A8FB7;
-  }
+}
 
-  .mysubmitbtn:active{
-    background-color:#E1E88A;
-  }
+.mysubmitbtn:active {
+    background-color: #E1E88A;
+}
 
-  input[type=time]{
+input[type=time] {
     background-color: #E1E88A;
     padding: 10px;
     border: none;
     border-radius: 40px;
-  }
+}
 
-  select{
+select {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -332,4 +331,4 @@ p {
     color: black;
     border: none;
     border-radius: 40px;
-  }
+}

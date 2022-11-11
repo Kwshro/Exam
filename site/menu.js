@@ -1,7 +1,7 @@
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
-const hamburger= document.querySelector(".hamburger");
-const closeIcon= document.querySelector(".closeIcon");
+const hamburger = document.querySelector(".hamburger");
+const closeIcon = document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
 
 /* if menu class list contains show menu, it will remove show menu - it will display it as a block instead of an element
@@ -23,8 +23,8 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", toggleMenu);
 
-menuItems.forEach( 
-  function(menuItem) { 
+menuItems.forEach(
+  function (menuItem) {
     menuItem.addEventListener("click", toggleMenu);
   }
 )
