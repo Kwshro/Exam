@@ -33,7 +33,7 @@
       <div class="flexContent"></div>
       <div class="flexContent">
         <a href="index.html">
-          <img class="headerLogo" src="headerLogo.svg" />
+          <img class="headerLogo" src="headerLogo.svg" alt="logo for restaurant trendsetter" />
         </a>
       </div>
       <div class="flexContent">
@@ -41,7 +41,7 @@
         <ul class="menu">
           <li>
             <a class="menuItem" href="index.html">
-              <img src="Logo.svg" class="logo"
+              <img src="Logo.svg" class="logo" alt="logo"
             /></a>
           </li>
           <li><a class="menuItem" href="menu.html">Menu</a></li>
@@ -58,8 +58,8 @@
         </ul>
         <button class="hamburger">
           <!-- material icons https://material.io/resources/icons/ -->
-          <i class="menuIcon material-icons">menu</i>
-          <i class="closeIcon material-icons">close</i>
+          <i class="menuIcon material-icons" aria-describedby="open menu">menu</i>
+          <i class="closeIcon material-icons" aria-describedby="close menu">close</i>
         </button>
       </div>
     </div>
@@ -72,7 +72,7 @@
       <div class="flex-c-2">
         <div class="flex-w-3">
           <div class="flex-c-3">
-            <img class="imgSpec" src="img/menukimbap.png" />
+            <img class="imgSpec" src="img/menukimbap.png" alt="picture of rice rolls with fillings, kimbap" />
           </div>
           <div class="flex-c-4">
             <!-- TEXT HERE-->
@@ -94,16 +94,16 @@
           </div>
         -->
           <div class="flex-c-6"><p>AMOUNT <br>
-            <input type="button" class="btnminus" onclick="deincrementKimbap()" value="-" />
-            <input type="number" class="myamt" value="0" id="qkimbap" name="qkimbap" min="0" max="10">
-            <input type="button" class="btnplus" onclick="incrementKimbap()" value="+" />  </p></div>
+            <input type="button" aria-label="button to deincrement" class="btnminus" onclick="deincrementKimbap()" value="-" />
+            <input type="number" aria-describedby="kimbap amount" class="myamt" value="0" id="qkimbap" name="qkimbap" min="0" max="10">
+            <input type="button" aria-label="button to increment" class="btnplus" onclick="incrementKimbap()" value="+" />  </p></div>
         </div>
       </div>
       <!--Box 2-->
       <div class="flex-c-2">
         <div class="flex-w-3">
           <div class="flex-c-3">
-            <img class="imgSpec" src="img/tteokbokkiramen.png" />
+            <img class="imgSpec" src="img/tteokbokkiramen.png" alt="picture of noodle dish with korean rice cakes in spicy sauce" />
           </div>
           <div class="flex-c-4">
             <!-- TEXT HERE-->
@@ -125,16 +125,16 @@
           </div>
         -->
           <div class="flex-c-6"><p>AMOUNT <br>
-            <input type="button" class="btnminus" onclick="deincrementRamen()" value="-" />
-            <input type="number" class="myamt" value="0" id="qramen" name="qramen" min="0" max="10">
-            <input type="button" class="btnplus" onclick="incrementRamen()" value="+" /></p></div>
+            <input type="button" aria-label="button to deincrement" class="btnminus" onclick="deincrementRamen()" value="-" />
+            <input type="number" aria-describedby="tteokbokki ramen amount" class="myamt" value="0" id="qramen" name="qramen" min="0" max="10">
+            <input type="button" aria-label="button to increment" class="btnplus" onclick="incrementRamen()" value="+" /></p></div>
         </div>
       </div>
       <!--Box 3-->
       <div class="flex-c-2">
         <div class="flex-w-3">
           <div class="flex-c-3">
-            <img class="imgSpec" src="img/kfc.png" />
+            <img class="imgSpec" src="img/kfc.png" alt="picture of korean style fried chicken" />
           </div>
           <div class="flex-c-4">
             <!-- TEXT HERE-->
@@ -156,16 +156,16 @@
           </div>
         -->
         <div class="flex-c-6"><p>AMOUNT <br>
-          <input type="button" class="btnminus" onclick="deincrementKfc()" value="-" />
-          <input type="number" class="myamt" value="0" id="qkfc" name="qkfc" min="0" max="10">
-          <input type="button" class="btnplus" onclick="incrementKfc()" value="+" /></p></div>
+          <input type="button" aria-label="button to deincrement" class="btnminus" onclick="deincrementKfc()" value="-" />
+          <input type="number" aria-describedby="korean fried chicken amount" class="myamt" value="0" id="qkfc" name="qkfc" min="0" max="10">
+          <input type="button" aria-label="button to increment" class="btnplus" onclick="incrementKfc()" value="+" /></p></div>
       </div>
       </div>
       <!--Box 4-->
       <div class="flex-c-2">
         <div class="flex-w-3">
           <div class="flex-c-3">
-            <img class="imgSpec" src="img/hotteok.png" />
+            <img class="imgSpec" src="img/hotteok.png" alt="picture of korean pancake with fillings" />
           </div>
           <div class="flex-c-4">
             <!-- TEXT HERE-->
@@ -187,16 +187,16 @@
           </div>
         -->
         <div class="flex-c-6"><p>AMOUNT <br>
-          <input type="button" class="btnminus" onclick="deincrementHotteok()" value="-" />
-          <input type="number" class="myamt" value="0" id="qhotteok" name="qhotteok" min="0" max="10">
-          <input type="button" class="btnplus" onclick="incrementHotteok()" value="+" /></p></div>
+          <input type="button" aria-label="button to deincrement" class="btnminus" onclick="deincrementHotteok()" value="-" />
+          <input type="number" aria-describedby="hotteok amount" class="myamt" value="0" id="qhotteok" name="qhotteok" min="0" max="10">
+          <input type="button" aria-label="button to increment" class="btnplus" onclick="incrementHotteok()" value="+" /></p></div>
       </div>
       </div>
       <!--Box 5-->
       <div class="flex-c-2">
         <div class="flex-w-3">
           <div class="flex-c-3">
-            <img class="imgSpec" src="img/milktea.png" />
+            <img class="imgSpec" src="img/milktea.png" alt="picture of iced milk tea" />
           </div>
           <div class="flex-c-4">
             <!-- TEXT HERE-->
@@ -218,9 +218,9 @@
           </div> 
                   -->
                   <div class="flex-c-6"><p>AMOUNT <br>
-                    <input type="button" class="btnminus" onclick="deincrementMilktea()" value="-" />
-                    <input type="number" class="myamt" value="0" id="qmilktea" name="qmilktea" min="0" max="10">
-                    <input type="button" class="btnplus" onclick="incrementMilktea()" value="+" /></p></div>
+                    <input type="button" aria-label="button to deincrement" class="btnminus" onclick="deincrementMilktea()" value="-" />
+                    <input type="number" aria-describedby="milk tea amount" class="myamt" value="0" id="qmilktea" name="qmilktea" min="0" max="10">
+                    <input type="button" aria-label="button to increment" class="btnplus" onclick="incrementMilktea()" value="+" /></p></div>
                 </div>
       </div>
       <!--Box 6 - submit -->
@@ -234,15 +234,15 @@
             <h2> Ready to order?</h2>
           </div>
             <br>
-          <div class="flex-c-6"><p>Wanted table number <br><select id="qtable" name="qtable">
-            <option value="choose">Choose table number</option>
+          <div class="flex-c-6"><label for="table number">Choose table number: </label><select id="qtable" name="qtable">
+            <option value="choose">Pick my seating</option>
             <option value="one"> Table 1</option>
             <option value="two"> Table 2</option>
             <option value="three"> Table 3</option>
             <option value="four"> Table 4</option>
             <option value="five"> Table 5</option>
             <option value="six"> Table 6</option>
-          </select> </p></div>
+          </select></div>
           <br>
           <div><p>Your time of arrival: <input type="time" id="qtime" name="qtime" min="09:00" max="21:00" required></p></div>
           <div><p><input type="submit" class="mysubmitbtn" name="submit" value="Submit"></p></div>
