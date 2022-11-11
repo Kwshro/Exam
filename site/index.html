@@ -115,5 +115,12 @@
     </div>
     <!--JS at the bottom to decrease loading time for visuals-->
     <script type="text/javascript" src="menu.js"></script>
+    <script> window.onload = function() {
+      const closeIcon= document.querySelector(".closeIcon");
+
+      menu.classList.remove("showMenu");
+      closeIcon.style.display = "none";
+      menuIcon.style.display = "block";
+    }</script>
   </body>
 </html>
