@@ -54,6 +54,12 @@ h1 {
     width: 100%;
 }
 
+@media screen and (max-width: 400px) {
+    .headerLogo {
+        width: 80%;
+    }
+}
+
 /* burger menu*/
 
 .closeIcon {
@@ -95,6 +101,12 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-evenly;
 
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        margin-right: 6%;
+    }
 }
 
 
