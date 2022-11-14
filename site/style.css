@@ -54,9 +54,9 @@ h1 {
     width: 100%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 374px) {
     .headerLogo {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -103,17 +103,28 @@ h1 {
 
 }
 
-@media screen and (max-width: 400px) {
-    .menu {
-        margin-right: 6%;
-    }
-}
 
 
 li {
     text-align: center;
     margin-right: 5%;
 
+}
+
+@media screen and (max-width: 400px) {
+    li {
+        text-align: center;
+        margin-right: 15%;
+    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        text-align: center;
+        margin-right: 22%;
+    
+    }
 }
 
 li>a {
