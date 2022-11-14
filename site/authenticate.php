@@ -1,4 +1,7 @@
 <?php
+/* Sources used: 
+    https://codeshack.io/secure-login-system-php-mysql/
+    https://www.educative.io/answers/how-to-connect-an-html-form-to-a-mysql-database-in-php */
 session_start();
 // Change this to your connection info.
 $DATABASE_HOST = 'localhost';

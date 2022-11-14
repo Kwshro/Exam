@@ -1,4 +1,8 @@
 <?php
+/* Sources used: 
+    https://codeshack.io/secure-login-system-php-mysql/
+    https://www.educative.io/answers/how-to-connect-an-html-form-to-a-mysql-database-in-php */
+
 // We need to use sessions, so you should always start sessions using the below code.
 session_start();
 // If the user is not logged in redirect to the login page...

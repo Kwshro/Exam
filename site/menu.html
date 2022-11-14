@@ -66,6 +66,9 @@
   </header>
 
   <body>
+    <!-- Form starts here with method="POST" to connect to SQL database via php
+    We use a flexbox system to keep it responsive
+  Buttons activates functions from increment.js on click -->
     <form method="POST" action="form.php">
     <div class="flex-w-2">
       <!--Box 1-->
@@ -250,7 +253,8 @@
       </div>
     </div>
   </form>
-    <!--JS at the bottom to decrease loading time for visuals-->
+    <!--JS at the bottom to decrease loading time for visuals
+    Added fix for burgermenu load issue. See comments in menu.js -->
     <script type="text/javascript" src="menu.js"></script>
     <script type="text/javascript" src="increment.js"></script>
     <script> window.onload = function() {

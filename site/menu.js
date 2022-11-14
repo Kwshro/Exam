@@ -1,3 +1,7 @@
+/* Source used: https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 (last located 14th of 11 2022).
+
+Creates constants that selects the id/selector via query selector (all). */
+
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger = document.querySelector(".hamburger");
@@ -20,6 +24,12 @@ function toggleMenu() {
     menuIcon.style.display = "none";
   }
 }
+
+/* Display block means that it becomes visible and display none means that it becomes invisible.
+We added additional javascript at the bottom of html pages because of a bug in the menu where display block would not initially get overwritten by display none.
+This code runs a refresh of the style.display on page load, so it functions correctly.
+
+The menu utilizes a system of EventListeners that runs through .forEach and responds to onlick to activate function toggleMenu(). */
 
 hamburger.addEventListener("click", toggleMenu);
 

@@ -237,6 +237,12 @@ p {
     font-size: small;
 }
 
+/* For .btnplus several styles have been added.
+background color for the blue background of the button
+padding to increase size of button
+border radius to round button corners
+border none to remove border */
+
 .btnplus {
     background-color: #3A8FB7;
     color: white;
@@ -262,6 +268,10 @@ p {
     padding: 10px;
     text-align: center;
 }
+
+/* on hover for buttons background-color to change the color from its former value to value in .btnplus:hover.
+transition: 0.5s to create a slow transition.
+transform: rotate(-180deg) to create a rotation of the button */
 
 .btnplus:hover {
     background-color: #FFC408;

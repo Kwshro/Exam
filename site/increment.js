@@ -1,3 +1,8 @@
+/* The function creates a variable of value that parses document.getElementById, and gets the value. And then checks if it is NaN. 
+Then if the value is less than 10 or higher than 0, it either increments or deincrements the value by 1, and then updates the value variable via getElementById.
+
+Source used for inspiration: http://jsfiddle.net/Dfprp/ (last located 14th of 11 2022) */
+
 function incrementKimbap() {
     var value = parseInt(document.getElementById('qkimbap').value, 10);
     value = isNaN(value) ? 0 : value;
